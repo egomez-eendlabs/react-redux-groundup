@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react'
 
 class App extends React.Component {
   render() {
-    reurn (
+    return (
       <div className="container-fluid">
         <p>Navigation goes here</p>
         {this.props.children}
@@ -13,7 +13,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  childre: PropTypes.object.isRequired
+  children: PropTypes.object.isRequired
 }
 
 export default App
